@@ -19,8 +19,8 @@ public class ComputerWater {
         Scanner keyedInput = new Scanner(System.in);
         
         //Variables
-        final double monitorWater = 0.5;
-        final double computerWater = 1.0;
+        final double MONITOR_WATER = 0.5;
+        final double COMPUTER_WATER = 1.0;
         double waterUsedMonitors,waterUsedComputers,totalUsed;
         int numComputers,numMonitors;
         
@@ -32,8 +32,8 @@ public class ComputerWater {
         numMonitors = keyedInput.nextInt();
         
         //Caculations
-        waterUsedMonitors = numMonitors * monitorWater;
-        waterUsedComputers = numComputers * computerWater;
+        waterUsedMonitors = numMonitors * MONITOR_WATER;
+        waterUsedComputers = numComputers * COMPUTER_WATER;
         totalUsed = waterUsedComputers + waterUsedMonitors; 
         
         //Output
